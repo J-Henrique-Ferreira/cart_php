@@ -1,0 +1,11 @@
+{
+    "name": "joaoh/cartphp",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/",
+            "public\\":"public/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
