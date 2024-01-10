@@ -2,4 +2,6 @@
 
 require "../../vendor/autoload.php";
 
-echo phpInfo();
+return "ola";
+
+// echo phpInfo();
