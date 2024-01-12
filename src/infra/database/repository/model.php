@@ -28,4 +28,9 @@ class Model {
     {
         return [];
     }
+
+    protected function create(string $table)
+    {
+        return [];
+    }
 }

@@ -2,6 +2,13 @@
 
 require "../../vendor/autoload.php";
 
-return "ola";
+use src\infra\database\Connection;
+use src\infra\database\repository\category\Category;
 
-// echo phpInfo();
+$category = new Category;
+
+$category->name = "Aulas";
+$category->id = 123;
+$category->description = "Descrição de teste";
+
+var_dump($category);
